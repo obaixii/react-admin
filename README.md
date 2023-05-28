@@ -12,7 +12,7 @@ This project is built using React.js, Sass, and React Context API.
 
 To run the Admin Panel locally on your machine, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-repo.git`
+1. Clone the repository: `git clone https://github.com/obaixii/react-admin.git`
 2. Navigate to the project directory: `cd admin-panel`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`

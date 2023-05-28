@@ -1,0 +1,103 @@
+:root {
+    --bg-dark: #161b22;
+    --bg-darked: #0d1117;
+}
+
+.app.dark {
+    background-color: var(--bg-darked);
+    color: #fff;
+
+    .chartGrid {
+        stroke: rgba(228, 228, 228, 0.219);
+    }
+
+    .table {
+        background-color: var(--bg-dark);
+        .tableCell {
+            color: gray;
+        }
+    }
+
+    .navbar {
+        background-color: var(--bg-darked);
+        color: #fff;
+        border-color: #333;
+
+        .search {
+            border-color: gray;
+        }
+    }
+
+    .sidebar {
+        background-color: var(--bg-darked);
+        border-color: #333;
+
+        .top {
+            .logo {
+                color: #00D8FF;
+            }
+        }
+
+        .center {
+            span {
+                color: #fff;
+            }
+        }
+
+        hr {
+            border-color: #333;
+        }
+
+        ul {
+            li {
+                &:hover {
+                    background-color: #333;
+                }
+
+                .icon {
+                    color: #00D8FF;
+                }
+            }
+        }
+    }
+
+    .dataTable {
+
+        .datagrid {
+            color: #fff;
+            background-color: var(--bg-dark);
+            border: none;
+            .viewButton,
+            .deleteButton,
+            .cellWithStatus {
+                color: #fff;
+                border: none;
+            }
+        }
+    }
+    .chart{
+        background-color: var(--bg-dark);
+    }
+    .widget{
+        background-color: var(--bg-dark);
+    }
+    .featured{
+        background-color: var(--bg-dark);
+    }
+    input {
+        background-color: var(--bg-dark);
+    }
+}
+
+/* 
+        'github-red': '#ea6045',
+        'github-blue': '#797ef9',
+        'github-green': '#2ea043',
+        'github-purple': '#6e40c9',
+        "primary": "#050816",
+        "html": "#E44D26",
+        "css": "#0277BD",
+        "javascript": "#F0DB4F",
+        "redux": "#764ABC",
+        "react": "#00D8FF",
+*/
